@@ -45,4 +45,56 @@ button_fr = Frame(win, width=312, height=272.5, bg="grey")
 
 button_fr.pack()
 
+Button(button_fr, text="C", fg="grey", width=32, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: bt_clear()).grid(row=0, column=0, columnspan=3, padx=1, pady=1)
+
+Button(button_fr, text="/", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: btn_click("/")).grid(row=0, column=3, padx=1, pady=1)
+
+Button(button_fr, text="7", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(7)).grid(row=1, column=0, padx=1, pady=1)
+
+Button(button_fr, text="8", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(8)).grid(row=1, column=1, padx=1, pady=1)
+
+Button(button_fr, text="9", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(9)).grid(row=1, column=2, padx=1, pady=1)
+
+Button(button_fr, text="*", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: btn_click("*")).grid(row=1, column=3, padx=1, pady=1)
+
+Button(button_fr, text="4", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(4)).grid(row=2, column=0, padx=1, pady=1)
+
+Button(button_fr, text="5", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(5)).grid(row=2, column=1, padx=1, pady=1)
+
+Button(button_fr, text="6", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(6)).grid(row=2, column=2, padx=1, pady=1)
+
+Button(button_fr, text="-", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: btn_click("-")).grid(row=2, column=3, padx=1, pady=1)
+
+Button(button_fr, text="1", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(1)).grid(row=3, column=0, padx=1, pady=1)
+
+Button(button_fr, text="2", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(2)).grid(row=3, column=1, padx=1, pady=1)
+
+Button(button_fr, text="3", fg="grey", width=10, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(3)).grid(row=3, column=2, padx=1, pady=1)
+
+Button(button_fr, text="+", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: btn_click("+")).grid(row=3, column=3, padx=1, pady=1)
+
+Button(button_fr, text="0", fg="grey", width=21, height=3, bd=0, bg="#80afff", cursor="hand2",
+       command=lambda: btn_click(0)).grid(row=4, column=0, columnspan=2, padx=1, pady=1)
+
+Button(button_fr, text=".", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: btn_click(".")).grid(row=4, column=2, padx=1, pady=1)
+
+Button(button_fr, text="=", fg="grey", width=10, height=3, bd=0, bg="#c7dcff", cursor="hand2",
+       command=lambda: bt_equal()).grid(row=4, column=3, padx=1, pady=1)
+
+
 win.mainloop()
