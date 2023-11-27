@@ -2,6 +2,7 @@
     Simple calculator with GUI on python
 
   ![img.png](img.png)
+  ![img_1.png](img_1.png)
 
   Update ver = 0.0.3 ==> ver 0.0.4
 
