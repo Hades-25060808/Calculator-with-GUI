@@ -1,7 +1,11 @@
 # Calculator-with-GUI
     Simple calculator with GUI on python
 
-![img.png](img.png)
+  ![img.png](img.png)
+
+  Update ver = 0.0.3 ==> ver 0.0.4
+
+    *fix color GUI (just fun create)
 
   Update ver = 0.0.2 ==> ver 0.0.3
 
@@ -19,7 +23,7 @@
   INFORMATION
 
     name = "Calculator with GUI",
-    version = "0.0.3",
+    version = "0.0.4",
     author = "Hades",
     author_email = "bbakytbieku02@gmail.com",
     description = "Simple calculator with GUI.",
